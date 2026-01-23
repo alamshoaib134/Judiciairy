@@ -1,0 +1,42 @@
+# Core RAG Framework
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-huggingface>=0.0.1
+
+# Vector Database
+chromadb>=0.4.22
+
+# Embeddings and Models
+sentence-transformers>=2.2.2
+transformers>=4.36.0
+torch>=2.1.0
+
+# HuggingFace Datasets
+datasets>=2.16.0
+huggingface-hub>=0.20.0
+
+# API and Web
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+
+# UI
+streamlit>=1.30.0
+
+# Data Processing
+pandas>=2.1.0
+numpy>=1.26.0
+tqdm>=4.66.0
+
+# Text Processing
+tiktoken>=0.5.2
+rank-bm25>=0.2.2
+
+# Utilities
+python-dotenv>=1.0.0
+httpx>=0.26.0
+aiohttp>=3.9.0
+
+# Optional: For local LLM inference
+# llama-cpp-python>=0.2.0
+# ctransformers>=0.2.27
